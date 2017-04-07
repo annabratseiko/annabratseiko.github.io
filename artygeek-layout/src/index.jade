@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    //meta(name='description', content='Geeks who do software development, outsourcing, web design based in Lviv, Ukraine, Eastern Europe. Proficient with asp net development, Angular development, custom mobile app development, Android application development, iOS apps, cross-platform mobile application development')
+    //meta(name='keywords', content='software development services Ukraine, outsourcing web development company, web application development, software company Lviv, asp net development, Angular development Lviv, custom mobile app development, Android application development, iOS apps Ukraine, cross-platform mobile application development Eastern Europe, web application Eastern Europe')
+    //meta(name='author', content='ArtyGeek')
+    title ArtyGeek
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css')
+    link(href='./styles/main.css', rel='stylesheet')
+  body
+    .swiper-container.project
+      .swiper-wrapper
+        
+        .swiper-slide(data-hash="main")
+          .swiper-container.main#main
+            .swiper-wrapper
+              .swiper-slide.bg.lazy-bg(data-background="../images/1.jpg") Slide vertical 1
+                a.link(href="/#vacancy") vacancy
+              .swiper-slide.bg.lazy-bg(data-background="../images/2.jpg") Slide vertical 2
+                a.link(href="/#portfolio") portfolio
+              .swiper-slide.bg.lazy-bg(data-background="../images/3.jpg") Slide vertical 3
+                a.link(href="/#career") career link
+              .swiper-slide.bg.lazy-bg(data-background="../images/4.jpg") Slide vertical 4
+              .swiper-slide.bg.lazy-bg(data-background="../images/5.jpg") Slide vertical 5
+              .swiper-slide.bg.lazy-bg(data-background="../images/6.jpg") Slide vertical 6
+              .swiper-slide.bg.lazy-bg(data-background="../images/7.jpg") Slide vertical 7
+              .swiper-slide.bg.lazy-bg(data-background="../images/8.jpg") Slide vertical 8
+              .swiper-slide.bg.lazy-bg(data-background="../images/9.jpg") Slide vertical 9
+        
+        .swiper-slide(data-hash="career")
+          .swiper-container.career#career
+            .swiper-wrapper
+              .swiper-slide.bg.lazy-bg(data-background="../images/10.jpg") Slide vertical 1
+                a.link(href="/#main") back to main
+              .swiper-slide.bg.lazy-bg(data-background="../images/11.jpg") Slide vertical 1
+                a.link(href="/#portfolio") portfolio
+              .swiper-slide.bg.lazy-bg(data-background="../images/12.jpg") Slide vertical 1
+                a.link(href="/#vacancy") vacancy
+              .swiper-slide.bg.lazy-bg(data-background="../images/13.jpg") Slide vertical 4
+        
+        .swiper-slide(data-hash="portfolio")
+          .swiper-container.portfolio#portfolio
+            .swiper-wrapper
+              .swiper-slide.bg.lazy-bg(data-background="../images/14.jpg") Slide vertical 1
+                a.link(href="/#main") back to main
+              .swiper-slide.bg.lazy-bg(data-background="../images/15.jpg") Slide vertical 2
+                a.link(href="/#vacancy") vacancy
+              .swiper-slide.bg.lazy-bg(data-background="../images/16.jpg") Slide vertical 3
+                a.link(href="/#career") career link
+              .swiper-slide.bg.lazy-bg(data-background="../images/17.jpg") Slide vertical 4
+        
+        .swiper-slide(data-hash="vacancy")
+          .swiper-container.vacancy#vacancy
+            .swiper-wrapper
+              .swiper-slide.bg.lazy-bg(data-background="../images/18.jpg") Slide vertical 1
+                a.link(href="/#main") back to main
+              .swiper-slide.bg.lazy-bg(data-background="../images/19.jpg") Slide vertical 2
+                a.link(href="/#portfolio") portfolio
+              .swiper-slide.bg.lazy-bg(data-background="../images/20.jpg") Slide vertical 3
+                a.link(href="/#career") career link
+              .swiper-slide.bg.lazy-bg(data-background="../images/21.jpg") Slide vertical 4
+              .swiper-slide.bg.lazy-bg(data-background="../images/22.jpg") Slide vertical 5
+
+    include scripts
