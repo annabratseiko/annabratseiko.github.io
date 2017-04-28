@@ -1,0 +1,64 @@
+.vacancy-page
+  .vacancy-header
+
+  .vacancy-container
+    .vacancy-block.vacancy-description
+      p.vacancy-title Middle Front-end (AngularJS) Developer
+      p.
+        We are a team that provides creative solutions in web and mobile development. Our job consists in transforming ideas into interesting and productive projects.
+      p.
+        Our company has built web and mobile solutions for clients located in the United States, the United Kingdom, Canada, Israel, Australia, Japan and other countries.
+      p.
+        We're looking for great talent and we'd love to meet some awesome, fun, technically-advanced team players in Lviv.
+
+      p.vacancy-subtitle Requirements:
+      ul.vacancy-list
+        li technical education (applied math and anformatics, computer sciences etc);
+        li at least 2 year experience within software development;
+        li excellent skills in front-end development (JavaScript, HTML5, CSS3);
+        li 1 + years of experience with AngularJS, Angular 2;
+        li 1 + years of experience with NodeJS;
+        li experience working with Git;
+        li at least intermediate English
+
+      p.vacancy-subtitle As a plus:
+      p familiar with C#/.NET/MVC, WebApi, SQL
+
+      p.vacancy-subtitle We offer:
+      ul.vacancy-list 
+        li European-style company;
+        li informal and friendly environment;
+        li adequate salary;
+        li English class with a lot of fun;
+        li bleeding-edge technologies;
+        li corporate events;
+        li attention to every employee;
+        li flexible working schedule
+
+    .vacancy-block.vacancy-form.flex-container.flex-justify-center.flex-align-items-center
+      .form-container
+        h4 Intrested in this position? 
+        p Get considered for future opportunities!
+        p.error-message
+          span The form is not working at the moment.
+          span Please send your CV’s to: 
+            a(href="mailto:hr@artygeek.com") hr@artygeek.com
+        
+        form
+          .vacancy-form-input
+            input(type="text" name="name" placeholder="NAME" required value="" class="vacancy-form-item")
+            i.bar
+          .vacancy-form-input
+            input(type="text" name="email" placeholder="EMAIL" required value="" class="vacancy-form-item")
+            i.bar
+          .vacancy-form-input
+            textarea(type="text" name="message" placeholder="MESSAGE" value="" class="vacancy-form-item textarea")
+            i.bar
+          .vacancy-form-input
+            input(type="file" name="file" required value="" class="vacancy-cv" class="vacancy-form-item")
+            span.file-cv submit your cv
+            img(src="./images/Career/form-plus.svg" class="vacancy-cv-icon")
+            i.bar
+          button(class="vacancy-submit-button") send
+
+            

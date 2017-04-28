@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="copyright" content="Copyright © 2013 Adobe Systems Incorporated. All rights reserved.
+ 
+ Licensed under the Apache License, Version 2.0 (the “License”);
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an “AS IS” BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.">
+        <title>Long Flight</title>
+        <style type="text/css">
+            /*.st0{fill:none;stroke:#85C441;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}*/
+            .st0{fill:#E3CDAE;}
+            .st1{fill:#E3CDAE;}
+            .st2{fill:#85C441;}
+            .st3{fill:none;stroke:#85C441;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;}
+            .st4{fill:none;stroke:#85C441;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12.6704,23.2291;}
+            .st10{fill:none;stroke:#85C441;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st11{fill:#85C441;}
+    .st12{fill:none;stroke:#85C441;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;}
+    .st13{fill:none;stroke:#85C441;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12.6704,23.2291;}
+    .st20{fill:#F2E91A;}
+    .st21{fill:#A23F40;}
+    .st22{fill:#59595C;}
+    .st23{fill:#257DA2;}
+    .st24{fill:#3E6982;}
+    .st25{fill:#B8E1EA;}
+    .st26{fill:#85D1E7;}
+    .st27{fill:#0088AA;}
+    .st28{fill:#28495D;}
+    .st29{opacity:0.3;fill:#F2E91A;}
+
+
+
+    #fuck{
+        animation: my 4s;
+        background: red;
+    }
+    @keyframes my{
+        from{
+           background: red ;
+        },
+        to{
+           background: black ;
+        }
+    }
+        </style>
+
+
+        
+    </head>
+    <body>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 1055 1000" style="enable-background:new 0 0 1055 1000;" xml:space="preserve">
+
+<g>
+    <g>
+        <path class="st0" d="M513.7,377l0.2,87.2c0,0,185.1,6.4,236.2,8.7c1-17.6-9.3-90.2-9.3-90.2L513.7,377z"/>
+        <path class="st0" d="M733.5,627.5l-225.1-84c0,0-6.2,39.4-2.1,156.6c84,37.3,233.4,37.3,233.4,37.3L733.5,627.5z"/>
+        <polygon class="st0" points="448.1,390.4 460.2,689.8 354.1,662.9 361.8,404.1        "/>
+    </g>
+    <polygon class="st0" points="677.5,532.2 756.3,554.8 754.2,505 677.5,498.7  "/>
+    <polygon class="st0" points="542.6,487.6 542.6,493.4 637,520.5 637,495.4    "/>
+    <polygon class="st0" points="516.3,415 510.1,272.1 626.3,270.3 623.2,413.2  "/>
+    <polygon class="st0" points="651.5,345.3 648.4,241.6 779.1,218.7 782.2,257.1    "/>
+    <path class="st0" d="M622.5,237.4v-89.2l-111-22.8c0,0,2.1,93.4,5.2,94.4C519.8,220.8,622.5,237.4,622.5,237.4z"/>
+    <polygon class="st0" points="519.8,235.3 521.2,249.4 557.1,248.7 555,240.3  "/>
+    <polygon class="st0" points="711.7,345.3 810.2,273.7 997,267.5 993.8,348.4  "/>
+    <polygon class="st0" points="786.4,473.9 766.7,381.6 866.3,374.3 856.9,478.1    "/>
+    <polygon class="st0" points="639.1,0.9 653.6,215.6 778.1,198 775,59 808.2,46.5 804,0.9  "/>
+    <rect x="801.9" y="213.6" class="st0" width="53.9" height="37.3"/>
+    <polygon class="st0" points="554.5,22.2 507.9,22.2 507.9,99.5 558.7,114     "/>
+    <polygon class="st0" points="621.4,81.8 574.8,81.8 573.7,115.5 624.6,130.1  "/>
+    <polygon class="st0" points="237.1,329.2 190.5,329.2 189.4,362.9 240.2,377.4    "/>
+    <rect x="569.6" y="-0.1" class="st0" width="53.4" height="65.9"/>
+    <polygon class="st0" points="892.2,187.6 805.1,188.7 1028.5,56.5 1055.3,102.7   "/>
+    <polygon class="st0" points="807.1,155.5 803,83.9 921.2,27.9 925.4,76.6     "/>
+    <polygon class="st0" points="824.8,1.1 826.3,50.7 898.4,26.6 895.4,-0.4     "/>
+    <polygon class="st0" points="348.6,716.7 601.7,770.6 585.1,858.8 364.2,838  "/>
+    <polygon class="st0" points="641.2,777.9 638,859.8 680.6,860.8 682.6,782    "/>
+    <polygon class="st0" points="708.6,786.2 699.2,996.7 770.8,996.7 736.6,789.3    "/>
+    <polygon class="st0" points="293.7,870.2 658.8,895.1 660.9,993.6 279.1,996.7    "/>
+    <polygon class="st0" points="322.9,586.1 316.6,653 203,623.5 206.2,545.7    "/>
+    <polygon class="st0" points="203,684.1 198.4,821.1 324.4,833.5 310.4,704.4  "/>
+    <polygon class="st0" points="164.1,777.5 162.6,816.4 89.5,811.7 81.7,889.5 45.9,884.9 47.5,775.9    "/>
+    <polygon class="st0" points="101.9,996.9 111.2,841.3 173.5,841.3 162.6,1000     "/>
+    <rect x="203.8" y="858.4" class="st0" width="63.8" height="52.9"/>
+    <rect x="186.7" y="937.8" class="st0" width="63.8" height="52.9"/>
+    <rect y="925.3" class="st0" width="79.4" height="52.9"/>
+    <polygon class="st0" points="431.8,358.8 360.2,372.3 439.5,278.1    "/>
+    <polygon class="st0" points="428.7,246.9 417.8,130.2 389.8,127.1 383.5,292.1    "/>
+    <polygon class="st0" points="366.4,131.8 322.9,134.9 332.2,183.1 364.9,181.6    "/>
+    <polygon class="st0" points="368,198.7 357.1,307.6 319.7,338.7 330.6,206.5  "/>
+    <polygon class="st0" points="426.5,98.8 430.3,1.1 346.1,4.9 353.7,100.7     "/>
+    <polygon class="st0" points="232.6,16.7 232.6,52.4 321.3,54 316.6,27.6  "/>
+    <polygon class="st0" points="316.6,71.1 318.2,100.7 285.5,99.1 280.8,69.6   "/>
+    <path class="st0" d="M812.5,575.6c0,0,2.1,72.5,2,83.7l74.7,3.1c0-16.2-5.3-48.4-5.3-48.4l-29.2-66.8c0,0-23.5-8.8-33.9-11.8
+        L778.4,553L812.5,575.6z"/>
+    <polygon class="st0" points="819.2,690.4 893.9,693.5 881.4,732.4 821.3,719.9    "/>
+    <polygon class="st0" points="780.3,499 783.4,525.4 814.5,511.4  "/>
+    <polygon class="st0" points="827,746.4 828.5,881.8 923.4,878.6 920.3,841.3 864.3,841.3 876.8,749.5  "/>
+    <polygon class="st0" points="830.1,993.8 827,947.1 942.1,948.7 935.9,996.9  "/>
+    <polygon class="st0" points="856.5,505.2 867.4,531.7 970.1,533.2 979.4,455.4 915.7,432.1 906.3,491.2    "/>
+
+
+
+
+    <image  x="924" y="750" id="fuck" width="200" height="200" xlink:href="Placeholder.svg" />
+
+
+
+
+<g>
+    <polyline class="st10" points="13.9,14.1 37.6,516.3 317.7,609.7 336.4,917.8     "/>
+    <circle class="st11" cx="553.5" cy="913.1" r="23.3"/>
+    <g>
+        <line class="st12" x1="551.1" y1="917.8" x2="545.1" y2="917.8"/>
+        <line class="st13" x1="521.9" y1="917.8" x2="354" y2="917.8"/>
+        <line class="st12" x1="342.4" y1="917.8" x2="336.4" y2="917.8"/>
+    </g>
+</g>
+
+
+
+    
+</g>
+</svg>
+
+    </body>
+    <script type="text/javascript"></script>
+</html>

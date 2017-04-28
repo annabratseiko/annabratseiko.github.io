@@ -1,0 +1,278 @@
+.vacancy-page {
+
+  .vacancy-container {
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    left: 130px;
+    right: 0;
+    height: 100%;   
+    -webkit-overflow-scrolling: touch; 
+    
+    p {
+      font-size: 16px;
+    }
+
+    .vacancy-block {
+      width: 50%;
+      height: 100%;
+      float: left;
+    }
+
+    .vacancy-description {
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column;
+
+      .back-button-container {
+        width: 100%;
+        height: 100px;
+
+        a {
+          text-decoration: none;
+        }
+
+        .vacancy-back-arrow {
+          width: 30px;
+          margin-right: 15px;
+          cursor: pointer;
+        }
+
+        span {
+          font-size: 24px;
+          font-weight: 500;
+          color: #176a8f;
+          cursor: pointer;
+        }
+      }
+      p {
+        margin: 0;
+        margin-bottom: 25px;
+      }
+
+      p.vacancy-title {
+        margin-top: 100px;
+        font-weight: bold;
+      }
+
+      p.vacancy-subtitle{
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 15px;
+      }
+
+      ul.vacancy-list {
+        padding-left: 20px;
+        margin-top: 0;
+      }
+
+
+    }
+
+    .vacancy-form {
+      .form-container {
+        text-align: center;
+        width: 100%;
+
+        p {
+          margin-bottom: 25px;
+        }
+
+        .error-message {
+          font-family: Roboto;
+          font-size: 14px;
+          line-height: 1.5;
+          text-align: center;
+          font-weight: 500;
+          color: #f72222;
+
+          span {
+            display: block;
+
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+
+        form {
+          max-width: 320px;
+          margin: 0 auto;
+        
+          .vacancy-form-input {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            position: relative;
+
+            .vacancy-form-item {
+              width: 100%;
+              height: 40px;
+              border-color: transparent;
+              padding: 0.125rem 0.125rem 0.0625rem;
+
+              &.textarea {
+                height: 60px;
+              }
+            }
+
+            .vacancy-cv {
+              opacity: 0;
+            }
+
+            .file-cv {
+              position: absolute;
+              left: 0;
+              bottom: 13px;
+              text-transform: uppercase;
+              font-size: 12px;
+              padding-left: 5px;
+              color: #666;
+            }
+
+            .vacancy-cv-icon {
+              width: 20px;
+              position: absolute;
+              right: 5px;
+              bottom: 10px;
+            }
+
+            .bar {
+              position: relative;
+              border-bottom: (1rem / 16) solid #acacac;
+              display: block;
+              width: 100%;
+              &::before {
+                  content: '';
+                  height: (1rem / 8);
+                  width: 0;
+                  left: 50%;
+                  bottom: (1rem / -16);
+                  position: absolute;
+                  background: #0076a3;
+                  transition: left 0.28s ease, width 0.28s ease;
+                  z-index: 2;
+              }
+              &::after {
+                  // @include clear();
+              }
+              &.showred {
+                  &::before {
+                      width: 100%;
+                      left: 0;
+                      background: red;
+                  }
+              }
+            }
+
+            .vacancy-form-item {
+              &:focus {
+                outline: none;
+                ~.bar {
+                  &::before {
+                    width: 100%;
+                    left: 0;
+                  }
+                }
+              }
+            }
+          }
+
+          .vacancy-submit-button {
+            width: 184px;
+            height: 46px;
+            border-radius: 22px;
+            background-color: #156084;
+            border: solid 2px #156084;
+            transition: 1s;
+            color: #166b8f;
+            background-color: inherit;
+            font-size: 14px;
+            font-weight: normal;
+            text-transform: uppercase;
+            margin: 30px auto;
+            &:hover {
+              background-color: #166b8f;
+              transition: 1s;
+              color: white;
+            }
+            &:focus {
+              outline: none;
+            }
+          }
+
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .vacancy-block {
+        float: none;
+        width: 100%;
+        height: auto;
+      }
+
+      .vacancy-description {
+        p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        p.vacancy-title {
+          margin-top: 65px;
+        }
+
+        p.vacancy-subtitle,
+        ul.vacancy-list {
+
+          li {
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+      }
+
+      .vacancy-form {
+        .form-container {
+          margin-top: 30px;
+          form {
+            max-width: 300px;
+          }
+        }
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .vacancy-container {
+      left: 0;
+
+      .vacancy-description {
+
+        .back-button-container {
+          padding-left: 85px;
+
+          span {
+            font-size: 16px;
+          }
+        }
+        
+      }
+
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .swiper-slide-active .vacancy-header {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 65px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+  }
+}

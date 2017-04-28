@@ -1,0 +1,72 @@
+include team-data.jade
+
+.team
+    .team-row
+        .team-col.left
+            .placeholder
+            .team-tags.mobile-tags.flex-container.flex-align-items-center
+                ul.flex-container
+                  li
+                    a(href="#", class="team-tag-link active", id="developers") Developers
+                  li 
+                    a(href="#", class="team-tag-link", id="designers") Designers
+                  li 
+                    a(href="#", class="team-tag-link", id="qa") QA
+                  li 
+                    a(href="#", class="team-tag-link", id="office") Office
+            .wrapper-icons#wrapper-icons
+                .team-subblock.developers.active
+                    - var iter = 1;
+                        ul.person-icons
+                            li.person-icon.lazy-bg(data-person-name='person' + iter++,  data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+                            while iter < 22
+                                li.person-icon.lazy-bg(data-person-name='person'+iter++, data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+
+                .team-subblock.designers
+                    - var iter = 22;
+                        ul.person-icons
+                            li.person-icon.lazy-bg(data-person-name='person' + iter++,  data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+                            while iter < 28
+                                li.person-icon.lazy-bg(data-person-name='person'+iter++, data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+
+                .team-subblock.qa
+                    - var iter = 28;
+                        ul.person-icons
+                            li.person-icon.lazy-bg(data-person-name='person' + iter++,  data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+                            while iter < 29
+                                li.person-icon.lazy-bg(data-person-name='person'+iter++, data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+
+                .team-subblock.office
+                    - var iter = 29;
+                        ul.person-icons
+                            li.person-icon.lazy-bg(data-person-name='person' + iter++,  data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+                            while iter < 42
+                                li.person-icon.lazy-bg(data-person-name='person'+iter++, data-person-id="#{iter}", data-background="images/team/small/#{iter-1}.png")
+
+            .team-tags.flex-container.flex-align-items-center
+                ul.flex-container
+                  li
+                    a(href="#", class="team-tag-link active", id="developers") Developers
+                  li 
+                    a(href="#", class="team-tag-link", id="designers") Designers
+                  li 
+                    a(href="#", class="team-tag-link", id="qa") QA
+                  li 
+                    a(href="#", class="team-tag-link", id="office") Office
+        .team-col.right
+            a(href="#").back-to-team  
+                img(src="images/Career/back.svg")
+                span Back
+            - var iter = 1;
+            .person-images
+                .person-image.active(id="person#{iter}", data-person-id="#{iter}")
+                    .person-info 
+                        p.person-name #{team[iter-1].name}
+                        p.person-position #{team[iter-1].position}
+                    img.lazy-image(data-src="images/team/square-jump/#{iter++}.png") 
+                while iter < 42
+                    .person-image(id="person#{iter}", data-person-id="#{iter}")
+                        .person-info 
+                            p.person-name #{team[iter-1].name}
+                            p.person-position #{team[iter-1].position}
+                        img.lazy-image(data-src="images/team/square-jump/#{iter++}.png") 

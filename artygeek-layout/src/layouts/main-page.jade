@@ -1,0 +1,175 @@
+.swiper-container.main#main
+  .swiper-wrapper.main__wrapper
+    .swiper-slide.start-page(data-animate-class="hide", data-id="home", data-hash="home-main")
+      h1.start-page__header SMITHY OF DIGITAL SOLUTIONS
+      img.start-page__arrow.animate(src="images/is_scroll_down.svg")
+    .swiper-slide.about(data-animate-class="hide", data-id="about", data-hash="home-about")
+      .about__row
+        .about__item
+          .about__img
+            img(src="images/Main/About/artygeek_about_1.png")
+          .about__info
+            h2.number 1.
+            .text You hire a guy and he is late with the delivery cause his rabbit is sick or something.
+        .about__item
+          .about__img
+            img(src="images/Main/About/artygeek_about_3.png")
+          .about__info
+            h2.number 2.
+            .text You wanted a Harley but received a bicycle as your ideas were misunderstood.
+      .about__row
+        .about__item
+          .about__img
+            img(src="images/Main/About/artygeek_about_2.png")
+          .about__info
+            h2.number 3.
+            .text Your contractor promises he speaks your language fluently but in the end, you have to resort to kindergarten vocabulary to be understood.
+        .about__item
+          .about__img
+            img(src="images/Main/About/artygeek_about_4.png")
+          .about__info
+            h2.number 4.
+            .text We are not cheap as quality is never up for discussion. You don't pay for unnecessary code.  Sisyphean labor is not in our nature.
+    .swiper-slide.portfolio(data-animate-class="show", data-id="expertise", data-hash="home-expertise")
+      .portfolio__col.desktop-only
+      .portfolio__col.desktop-only
+        a.portfolio__img(href="https://geekapps.com")
+      .swiper-container.portfolio-swiper.mobile-only
+        .swiper-wrapper
+          .swiper-slide
+            .portfolio-mb__item
+              .icon
+                include ../svg/monitor.svg.jade
+              .header Web
+              p.text ASP.NET Web API, C# .NET, WCF, ASP.NET SignalR, SQL Server, EntityFramework, AngularJS, Bootstrap, HTML/CSS, JavaScript, jQuery, LESS, Jade, UX Pin, Sketch, Adobe Photoshop, Adobe Illustrator
+          .swiper-slide
+            .portfolio-mb__item
+              .icon
+                include ../svg/phone.svg.jade
+              .header Mobile
+              p.text Objective-C, SWIFT, Java (Android), Alamofire, SwiftR, UIKit, SwiftR, Retrofit, ACRA, ButterKnife, EventBus, Retrolambda, ObjectMapper, AlamofireObjectMapper, AVFoundation, MapKit, CoreData
+          .swiper-slide
+            .portfolio-mb__item
+              .icon
+                include ../svg/goggles.svg.jade
+              .header Lab
+              p.text ReactJS, Unity, Kudan framework, Branding, Printing, Preprinting, Identity, Augmented Reality, Animation, Data Science, Illustration, Game Development, Brochure Design, C/C++, Virtual Reality, Game Art Production, DevOps
+          .swiper-slide
+            .portfolio-mb__item
+              .icon
+                include ../svg/ball.svg.jade
+              .header Dribbble
+              p.text Want to find out more? Check out our most popular projects! New followers and likes are always welcome.Let's start a new project together!
+        .swiper-pagination
+    .swiper-slide.portfolio-path(data-animate-class="show-min", data-id="portfolio-web", data-hash="portfolio-web")
+      .menu--left
+      .portfolio__grid
+        .portfolio__grid-col
+          a(href="/portfolio/#/board").portfolio__grid-item.board-a-boat
+            .logo
+            .spl-bg
+          a(href="/portfolio/#/oscaro").portfolio__grid-item.oscaro
+            .logo
+            .spl-bg
+        .portfolio__grid-col
+          a(href="/portfolio/#/rikroot").portfolio__grid-item.rikroot
+            .logo
+            .spl-bg
+          a(href="/portfolio/#/psyball").portfolio__grid-item.psyball
+            .logo
+            .spl-bg
+    .swiper-slide.portfolio-path(data-animate-class="show-min", data-id="portfolio-mob", data-hash="portfolio-mob")
+      .menu--left
+      .portfolio__grid
+        .portfolio__grid-col
+          a(href="/portfolio/#/nem").portfolio__grid-item.nem
+            .logo
+            .spl-bg
+          a(href="/portfolio/#/levent").portfolio__grid-item.levent
+            .logo
+            .spl-bg
+        .portfolio__grid-col
+          a(href="/portfolio/#/wish-catcher").portfolio__grid-item.wish-catcher
+            .logo
+            .spl-bg
+          a(href="/portfolio/#/apps").portfolio__grid-item.geekapps
+            .logo
+            .spl-bg
+    .swiper-slide.portfolio-path(data-animate-class="show-min", data-id="portfolio-lab", data-hash="portfolio-lab")
+      .menu--left
+      .portfolio__grid
+        .portfolio__grid-col
+          a(href="/portfolio/#/himss").portfolio__grid-item.himss
+            .logo
+            .spl-bg
+          a(href="/portfolio/#/bubble").portfolio__grid-item.bob
+            .logo
+            .spl-bg
+        .portfolio__grid-col
+          a(href="/portfolio/#/koktebel").portfolio__grid-item.koktebel
+            .logo
+            .spl-bg
+    .swiper-slide(data-animate-class="show-min", data-id="portfolio-dribble", data-hash="portfolio-dribble")
+      .menu--left
+      .portfolio__grid.dribble
+        img.top-image(src="../images/Main/Dribbble/mantop.png")
+        img.bottom-image(src="../images/Main/Dribbble/manbottom.png")
+        a(href="https://dribbble.com/artygeek").dribble__btn Go to Dribbble
+    .swiper-slide.about.info(data-animate-class="hide", data-id="info", data-hash="home-info")
+      .about__row
+        .about__item
+          .about__img
+            img(src="/images/Main/About/research.png")
+          .about__info
+            h2 USER RESEARCH
+            .text We create the solution from concept to technology meaningful for people. With user research, you can be sure that your customers will see and get what they really need.
+            .mobile-text We create the solution from concept to technology. With user research, you can be sure that your customers will see and get what they really need.
+        .about__item
+          .about__img
+            img(src="/images/Main/About/strategy.png")
+          .about__info
+            h2 STRATEGY AND SOLUTION
+            .text You deserve more - the strategy, unique and creative approach, and reliable partner for all your future achievements. Not only get you a high-quality service, but also a cost-effective solution built to achieve your business goals.
+            .mobile-text You deserve more - the strategy, unique and creative approach, and reliable partner for all your future achievements. 
+      .about__row
+        .about__item
+          .about__img
+            img(src="/images/Main/About/focusing.png")
+          .about__info
+            h2 EXCELLENT UX IS THE KEY
+            .text Your brand identity is the centre of user experience. We reimagine and reinvent your company’s digital world. We dive into your product and design every single screen and flow to make them unique, usable, and interactive.
+            .mobile-text Your brand identity is the centre of user experience. We dive into your product and design every single screen and flow to make them unique, usable, and interactive. 
+        .about__item
+          .about__img
+            img(src="/images/Main/About/development.png")
+          .about__info
+            h2 DEVELOPMENT
+            .text We’re an experienced team of geeks working with latest and trusted technologies. You can count on clean and high-quality code that you will get on time and within budget.
+            .mobile-text We’re an experienced team of geeks working with latest and trusted technologies. You can count on clean code that you will get on time and within budget.
+    .swiper-slide.contact(data-animate-class="hide", data-id="contact", data-hash="home-contact")
+      form.contact__form#mycontactform
+        h2.contact__title Contact Us
+        .form-group
+          .set#email
+            input(type="email" name="mail" placeholder="E-mail" required value="")
+            i.bar
+        .form-group
+          .set.subject
+            input(type="text" name="subject" placeholder="Subject" required value="")
+            i.bar
+        .form-group.message
+          .textarea
+            textarea(name="message" placeholder="Message" cols="20" rows="2" required)#message
+            i.bar
+        button.button-submit submit
+      .social-networks
+        a(href="https://www.facebook.com/artygeek.llc/").fb.social-items
+          div
+        a(href="https://www.linkedin.com/company-beta/10189041/").ln.social-items
+          div
+        a(href="https://www.behance.net/artygeek").be.social-items
+          div
+        a(href="https://twitter.com/artygeekcompany").tw.social-items
+          div
+  .swiper-pagination.main-page-pagination
+include components/menu-portfolio

@@ -1,0 +1,113 @@
+@mixin set-proj-bg($bg-color, $bg-img, $logo-img, $logo-width, $logo-height) {
+  background-color: $bg-color;
+
+  .logo {
+    background-image: $logo-img;
+    width: $logo-width;
+    height: $logo-height;
+  }
+
+  .spl-bg {
+    background-image: $bg-img;
+  }
+
+  @media all and(max-width: $tablet) {
+    .logo {
+      width: $logo-width/2;
+      height: $logo-height/2;
+    }
+  }
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        @content;
+    }
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+}
+
+@mixin clear() {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+@mixin socialNetworks($height, $width, $k) {
+    .social-networks {
+        display: flex;
+        justify-content: center;
+        a {
+            display: block;
+            height: $height;
+            width: $width;
+            margin: 0 $width/4;
+            transition: 0.2s;
+            &:hover {
+                &:before {
+                    transition: 0.2s;
+                    transform: scale(1.1, 1.1);
+                }
+            }
+            &:before {
+                transition: 0.5s;
+                display: block;
+                content: '';
+                position: absolute;
+                height: $height;
+                width: $width;
+                border-radius: 50%;
+                z-index: -1;
+            }
+            &:after {
+                display: block;
+                content: '';
+                clear: both;
+            }
+        }
+        .social-items {
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: $height;
+            width: $width;
+            display: block;
+        }
+        .fb {
+            background-size: 17px*$k 32px*$k;
+            background-image: url('/images/Main/Contactus/f.svg');
+            &:before {
+                background-color: #5e78d5;
+            }
+        }
+        .ln {
+            background-size: 32px*$k 30px*$k;
+            background-image: url('/images/Main/Contactus/in.svg');
+            &:before {
+                background-color: #7dc8f5;
+            }
+        }
+        .be {
+            background-size: 35px*$k 33px*$k;
+            background-image: url('/images/Main/Contactus/behance.svg');
+            &:before {
+                background-color: #319dd4;
+            }
+        }
+        .tw {
+            background-size: 35px*$k 35px*$k;
+            background-image: url('/images/Main/Contactus/twitter.svg');
+            &:before {
+                background-color: #1da1f2;
+            }
+        }
+    }
+}

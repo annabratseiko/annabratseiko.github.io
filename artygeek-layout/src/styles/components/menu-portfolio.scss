@@ -1,0 +1,135 @@
+@import '../main-page/variables';
+.portfolio-menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: -150px;
+  width: 150px;
+  height: 100%;
+  padding: 0 50px;
+  transition: 0.3s;
+  z-index: 10;
+
+  ul {
+    list-style-type: none;
+
+    .portfolio-menu-item {
+      min-height: 130px;
+      overflow: hidden;
+      transition: height 0.4s;
+      cursor: pointer;
+
+      .icon {
+        width: 110px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .icon-image {
+          width: 50px;
+        }
+
+        .icon-name {
+          color: #8a8a8a;
+          font-weight: 200;
+          font-size: 18px;
+        }
+
+      }
+    }
+
+    .description {
+      width: calc(100% - 110px);
+      float: left;
+      font-size: 18px;
+      line-height: 1.5;
+      opacity: 0;
+      height: 0;
+      visibility: hidden;
+    }
+  }
+
+  &.show {
+    width: 50%;
+    left: 0;
+
+     ul {
+        .portfolio-menu-item {
+          min-height: 180px;
+        }
+      }
+      .description {
+        opacity: 1;
+        animation: displayText 1s ease forwards;
+      }
+    }
+
+  &.show-min {
+    width: 150px;
+    left: 0;
+    padding: 0;
+    justify-content: center;
+
+    ul {
+
+      .portfolio-menu-item {
+        animation: hideText 0.2s ease forwards;
+        min-height: 130px;
+
+        .description {
+          display: none;
+        }
+
+        &.active {
+          .icon {
+            .icon-image {
+              svg {
+                fill: #d9303e;
+
+                .st0,
+                .st1 {
+                  stroke: #d9303e;
+                }
+              }
+            }
+
+            .icon-name {
+              color: #d9303e;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $laptop) {
+  .portfolio-menu {
+    display: none;
+  }
+}
+
+@keyframes displayText {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  } 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+  }
+}
+
+@keyframes hideText {
+  0% {
+    min-height: 180px;
+  }
+  100% {
+    min-height: 130px;
+  }
+}

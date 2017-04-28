@@ -1,0 +1,175 @@
+@import '../main-page/mixins';
+
+.menu-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  transition: .3s;
+  z-index: 50;
+  display: none;
+
+  &.open {
+    display: block;
+  }
+}
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+  z-index: 51;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+
+  .menu-logo {
+    height: 150px;
+
+    .logo {
+      width: 80px;
+      margin: 40px 30px;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    text-align: center;
+    -webkit-overflow-scrolling: touch;
+
+    li {
+
+      a {
+        font-size: 24px;
+        text-align: center;
+        line-height: 55px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #000; 
+        transition: 0.3s;
+        
+        &:hover {
+          color: #DB303F;
+        }
+      }
+    }
+  }
+
+  .menu-social {
+    height: 200px;
+
+    @include socialNetworks(35px, 35px, 0.5);
+  }
+
+  /*-----menu icon-------*/
+  #menu-icon {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: -80px;
+    top: 0;
+    margin: 30px 25px;
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+    span {
+      display: block;
+      position: absolute;
+      height: 4px;
+      width: 100%;
+      background: #000;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: 0.25s ease-in-out;
+    }
+
+    span:nth-child(1) {
+      top: 0px;
+      transform-origin: left center;
+    }
+
+    span:nth-child(2) {
+      top: 8px;
+      transform-origin: left center;
+    }
+
+    span:nth-child(3) {
+      top: 16px;
+      transform-origin: left center;
+    }
+
+    &:hover {
+      span {
+        background: #DB303F;
+      }
+    }
+  }
+
+  &.open {
+    right: 0;
+
+    #menu-icon {
+      span {
+        background: #fff;
+      }
+
+      span:nth-child(1) {
+        transform: rotate(45deg);
+        top: -2px;
+      }
+
+      span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+      }
+
+      span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 19px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-menu {
+    right: -100%;
+    width: 100%;
+
+    .menu-logo {
+      height: 65px;
+
+      .logo {
+        width: 45px;
+        margin: 25px 20px;
+      }
+    }
+
+    .menu-social {
+      height: 65px;
+    }
+
+    &.open {
+
+      #menu-icon {
+        left: auto;
+        right: 0;
+
+        span {
+          background: #000;
+        }
+      }
+    }
+  }
+}
