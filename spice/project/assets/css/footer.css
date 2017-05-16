@@ -1,0 +1,260 @@
+/*--flex--*/
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-direction-column {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-align-items-center {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-align-items-bottom {
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.flex-justify-content-space-between {
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flex-justify-content-center {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-align-self-stretch {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+.flex-align-items-stretch {
+ -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+footer {
+	padding-bottom: 0;
+}
+
+.strategic,
+.footer {
+	background-image: url(../images/bg-2.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.footer-nav {
+	flex: 1 1;
+	list-style: none;
+	text-align: center;
+}
+
+.footer-nav-item a{
+	font-family: "Museo Sans 700",sans-serif;
+	font-size: 30px;
+	color: #fff;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+.footer-contacts {
+	height: 250px;
+	width: 100%;
+	background: rgba(0, 0, 0, .6);
+	overflow: hidden;
+}
+
+.footer-contacts-container {
+	width: 50%;
+	float: right;
+	text-align: center;
+	padding: 0 4%;
+}
+
+.footer-contacts-title {
+	font-family: "Museo Sans 900",sans-serif;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.footer-subscribe-form {
+	position: relative;
+	width: 350px;
+	margin: 20px auto 0;
+	text-align: left;
+}
+
+.subscribe-input {
+	width: 250px;
+	border: none;
+	background: #fff;
+	border-radius: 3px 0 0 3px;
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	padding-left: 15px;
+}
+
+.subscribe-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 40px;
+	border: none;
+	background: #55721a;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Museo Sans 700",sans-serif;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0 3px 3px 0;
+}
+
+.footer-contacts-block {
+	width: 50%;
+	float: left;
+}
+
+.footer-contacts-block a {
+	display: block;
+}
+
+.footer-title {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: "Museo Sans 700",sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.footer-contacts-item {
+	vertical-align: middle;
+	text-align: left;
+	line-height: 30px;
+}
+
+.footer-contacts-item:before {
+	content: '';
+	display: inline-block;
+	width: 30px;
+	height: 32px;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+.footer-contacts-item.mail:before {
+	background-image: url(../images/footer/mail.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.footer-contacts-item.phone:before {
+	background-image: url(../images/footer/phone.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.footer-contacts-item.adress:before {
+	background-image: url(../images/footer/map-marker.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.footer-contacts-item.linkedin:before {
+	background-image: url(../images/footer/linkedin-footer.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 30px;
+}
+
+.bottom-footer {
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	background: rgba(0, 0, 0, .8);
+}
+
+.bottom-footer a {
+	padding: 0 15px;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "Museo Sans 100",sans-serif;
+}
+
+.static-footer .footer-nav {
+    padding: 50px 0;
+}
+
+/*???*/
+/*.slogan {
+	font-size: 65px;
+}
+
+@media screen and (max-width: 1140px) {
+	.slogan {
+	  font-size: 6vw;
+	}
+}
+
+@media screen and (max-width: 1919px) {
+	.company-profile {
+	    text-align: right;
+	}
+}*/
+
+@media screen and (max-width: 1024px) {
+
+	.footer-contacts-container,
+	.footer-contacts-block {
+		float: none;
+		width: 100%;
+	}
+
+	.footer-nav-item a,
+	.footer-title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.footer-contacts {
+		height: auto;
+	}
+
+	.footer-subscribe-form {
+		width: 288px;
+	}
+
+	.footer-contacts-title.second {
+		display: none;
+	}
+
+	.footer-contacts-block a {
+	    line-height: 40px;
+	    text-align: center;
+	}
+	.mobile-cases-button {
+		display: block;
+	}
+}

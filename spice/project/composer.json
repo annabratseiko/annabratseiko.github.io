@@ -1,0 +1,12 @@
+{
+    "name": "maartenbaeten/spice",
+    "authors": [
+        {
+            "name": "maartenbaeten",
+            "email": "maarten.baeten27@gmail.com"
+        }
+    ],
+    "require": {
+        "deployer/deployer": "^4.0"
+    }
+}
