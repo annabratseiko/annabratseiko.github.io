@@ -165,6 +165,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	background-image: url(../images/bg-2.jpg);
 	background-size: cover;
 	position: relative;
+	z-index: 10;
 }
 
 .strategic-overlay {
@@ -187,10 +188,14 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	color: #fff;
 	font-size: 36px;
 	text-align: center;
-	font-family: "Museo Sans 900",sans-serif;
+	font-family: "Museo Sans 500",sans-serif;
 }
 .strategic-title span {
 	display: block;
+}
+
+.strategic-title b {
+	font-family: "Museo Sans 900",sans-serif;
 }
 
 .strategic-wrapper {
@@ -198,18 +203,20 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 }
 
 .story-strategic-wrapper {
-	margin: 0 auto;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .mobile-strategic-wrapper {
 	display: none;
 	position: relative;
+	overflow: hidden;
 }
 
 .strategic-item {
 	background: #fff;
 	padding: 25px;
+	min-height: 325px;
 	-webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: -6px 1px 10px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
@@ -235,6 +242,11 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	margin-bottom: 45px;
 	font-family: "Museo Sans 700",sans-serif;
 }
+
+.strategic-item-title {
+	margin-bottom: 20px;
+}
+
 .mobile-strategic-item-title {
 	margin-bottom: 0;
 }
@@ -259,6 +271,15 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	color: #7f7f7f;
 	margin-bottom: 70px;
 	font-family: "Museo Sans 100",sans-serif;
+}
+
+.strategic-item-text {
+	margin-bottom: 40px;
+}
+
+.strategic-item-text.subtitle {
+	font-family: "Museo Sans 500",sans-serif;
+	margin-bottom: 15px;
 }
 
 .communication {
@@ -407,6 +428,9 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 
 .services-item-text {
 	margin-bottom: 0;
+}
+.services-item-text b {
+	font-family: "Museo Sans 500",sans-serif;
 }
 
 .services-button {
@@ -1017,7 +1041,7 @@ ul.navbar-nav>li>.nav-link {
 .communication-plan-item {
 	background: #fff;
 	border: 1px solid #44a2bc;
-	padding: 25px 25px 0px;
+	padding: 25px 24px 0px;
 	color: #2e0b01;
 	text-align: left;
 	 -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
@@ -1036,6 +1060,11 @@ ul.navbar-nav>li>.nav-link {
 .communication-plan-text {
 	min-height: 40px;
 }
+
+.communication-plan-text b{
+	font-family: "Museo Sans 500",sans-serif;
+}
+
 .communication-plan-number {
 	color: #bbdbe8;
 	font-size: 48px;
@@ -1439,10 +1468,11 @@ ul.navbar-nav>li>.nav-link {
 	border: 1px solid #cb242d;
 	padding: 50px 15px;
 	text-align: center;
+	min-height: 270px;
 }
 
 .get-in-touch {
-	padding: 40px 0 30px;
+	padding: 40px 30px;
 	text-align: center;
 }
 .get-in-touch-title {
@@ -1661,6 +1691,14 @@ textarea.contact-form-input {
 	margin: 15px auto;
 }
 
+.top-space-travel {
+	padding-top: 70px;
+}
+
+.travel-row {
+	margin: 0;
+}
+
 @media screen and (max-width: 1440px) {
 	.cases .position-block-image {
 		max-height: 300px;
@@ -1844,7 +1882,8 @@ textarea.contact-form-input {
 		font-size: 18px;
 	}
 	.team-values .communication-plan-item {
-	    padding: 45px 15px;
+	    padding: 25px 15px;
+	    min-height: auto;
 	}
 	.get-in-touch-title {
 	    font-size: 24px;
@@ -1874,6 +1913,14 @@ textarea.contact-form-input {
 	}
 	.cases-type-line:first-of-type {
 		margin-right: 0px;
+	}
+
+	.top-space-travel {
+		padding-top: 95px;
+	}
+
+	.travel-mobile-strategic-wrapper {
+		padding-bottom: 50px;
 	}
 }
 

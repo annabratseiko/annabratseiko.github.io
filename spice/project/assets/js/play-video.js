@@ -50,6 +50,8 @@ function bindVideoEvents() {
   for (var i = 0; i < buttons.length; i++) {
     (function(e) {
         buttons[e].addEventListener('click', function() {
+          // console.log(document.getElementById('main-video-frame'));
+          // document.getElementById('main-video-frame').scr = this.getAttribute('data-src');
           document.querySelector('.main-video-overlay').style.display = 'block';
         });
     })(i);
