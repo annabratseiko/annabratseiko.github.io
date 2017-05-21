@@ -72,7 +72,7 @@
     </nav>
 
     <div class="home">
-      <div class="swiper-container">
+      <div class="swiper-container main-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide flex-container flex-justify-content-center flex-align-items-center flex-direction-column">
             <div class="container-fluid hero-block flex-container flex-justify-content-center flex-align-items-center flex-direction-column top-space">
@@ -323,7 +323,66 @@
             <div class="row">
               <h2 class="cases-title col-xs-12">OUR CaseS</h2>
             </div>
-            <div class="container position-block cases-wrapper index-case">
+            <div class="swiper-container swiper-cases">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="container position-block cases-wrapper index-case">
+                    <div class="position-block-image">
+                      <div class="position-block-video">
+                        <img src="assets/images/Knorr.png" alt="">
+                      </div>
+                    </div>
+                    <div class="position-info-block cases-info-block">
+                      <div class="cases-info-header">Knorr Snackpot - Release the Flavour</div>
+                      <div class="cases-info-text">
+                        <p>Spice Agency released the flavour of tasty Knorr Snackpots during the national launch of new Knorr pasta &amp; rice snacks. With an integrated approach combining sampling, talkable activations &amp; social influencers, we invited thousands of millenials to try asnackpot and #livethebreak!</p>
+                        <p>The campaign covered targeted sampling days in 8 student cities, close collaborations with student organizations across the country and an integrated partnership with eSports platform Kayzr, including the first ever gaming Student League hosted by Knorr Snackpot.</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="container position-block">
+                      <div class="position-block-image">
+                          <div class="position-block-video">
+                              <img src="assets/images/spicy-background.png" alt="">
+                          </div>
+                      </div>
+                      <div class="position-info-block cases-info-block">
+                        <div class="cases-info-header cases-page-header">Besel pro.activ</div>
+                        <div class="cases-info-text cases-page-text">
+                          <div class="info-label">Story Travelling</div>
+                          <div class="info-label">FMCG</div>
+                          <p>We took over the village of Zonhoven with Becel ProActiv, engaging the villagers in a 4 week cholesterol lowering activation program. With daily activities to educate, support and motivate them, 77% lowered their cholesterol. </p>
+                          <p>The campaign was broadcasted every day in prime time, was followed by weekly magazines and reached more than 1 million Belgians on YouTube. The participating villagers are still active brand ambassadors.</p></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="container position-block position-block-right cases-wrapper">
+                      <div class="position-block-image">
+                        <div class="position-block-video">
+                            <img src="assets/images/spicy-background.png" alt="">
+                        </div>
+                      </div>
+                      <div class="position-info-block cases-info-block">
+                        <div class="cases-info-header">KARDECO</div>
+                        <div class="cases-info-text">
+                          <div class="info-label">Branding</div>
+                          <div class="info-label">Communication</div>
+                          <div class="info-label">Construction</div>
+                          <p>Kardeco offers different types of businesses in the construction sector. First we structured these within the brand and brought them together in a new website platform.</p> 
+                          <p>We then set up a targeted communication plan, B2C &amp; B2B, took care of developing materials and execution of all digital, social and offline campaigns</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+
+
+            <!-- <div class="container position-block cases-wrapper index-case">
               <div class="position-block-image">
                 <div class="position-block-video">
                   <img src="assets/images/Knorr.png" alt="">
@@ -332,7 +391,6 @@
               <div class="position-info-block cases-info-block">
                 <div class="cases-info-header">Knorr Snackpot - Release the Flavour</div>
                 <div class="cases-info-text">
-                  <!-- <div class="info-label">Story Traveling</div> -->
                   <p>Spice Agency released the flavour of tasty Knorr Snackpots during the national launch of new Knorr pasta &amp; rice snacks. With an integrated approach combining sampling, talkable activations &amp; social influencers, we invited thousands of millenials to try asnackpot and #livethebreak!</p>
                   <p>The campaign covered targeted sampling days in 8 student cities, close collaborations with student organizations across the country and an integrated partnership with eSports platform Kayzr, including the first ever gaming Student League hosted by Knorr Snackpot.</p></div>
               </div>
@@ -341,10 +399,6 @@
                 <div class="position-block-image">
                   <div class="position-block-video">
                       <img src="assets/images/spicy-background.png" alt="">
-                      <!-- <div class="position-block-video-overlay">
-                          <p class="position-block-video-overlay-title">watch video</p>
-                          <img class="position-block-video-overlay-button" src="assets/images/video-play.svg">
-                      </div> -->
                   </div>
                 </div>
                 <div class="position-info-block cases-info-block">
@@ -357,7 +411,7 @@
                     <p>We then set up a targeted communication plan, B2C &amp; B2B, took care of developing materials and execution of all digital, social and offline campaigns</p>
                   </div>
                 </div>
-            </div>
+            </div> -->
             <div class="mobile-cases-wrapper">
               <div class="mobile-cases-img">
                 <div class="position-block-video">
@@ -511,13 +565,20 @@
     </script>
 <script src="assets/lib/swiper.min.js"></script>
 <script src="assets/js/play-video.js"></script>
-<script src="assets/js/index.js"></script>
+<!-- <script src="assets/js/index.js"></script> -->
 <script>
-  var homePageSwiper = new Swiper('.swiper-container', {
+  var homePageSwiper = new Swiper('.main-swiper', {
     direction: 'vertical',
     mousewheelControl: true,
     keyboardControl: true,
-    speed: 400
+    speed: 300
+  });
+
+  var casesSwiper = new Swiper('.swiper-cases', {
+    keyboardControl: true,
+    speed: 300,
+    pagination: '.swiper-pagination',
+    paginationClickable: true
   });
 </script>
 </body>

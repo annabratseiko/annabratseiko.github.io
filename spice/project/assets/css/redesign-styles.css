@@ -188,7 +188,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	color: #fff;
 	font-size: 36px;
 	text-align: center;
-	font-family: "Museo Sans 500",sans-serif;
+	font-family: "Museo Sans 300",sans-serif;
 }
 .strategic-title span {
 	display: block;
@@ -278,7 +278,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 }
 
 .strategic-item-text.subtitle {
-	font-family: "Museo Sans 500",sans-serif;
+	font-family: "Museo Sans 300",sans-serif;
 	margin-bottom: 15px;
 }
 
@@ -430,7 +430,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	margin-bottom: 0;
 }
 .services-item-text b {
-	font-family: "Museo Sans 500",sans-serif;
+	font-family: "Museo Sans 300",sans-serif;
 }
 
 .services-button {
@@ -440,7 +440,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 .services-button a{
 	display: block;
 	margin: 40px auto;
-	margin-bottom: 10px;
+	margin-bottom: 70px;
 	width: 180px;
 	height: 35px;
 	line-height: 35px;
@@ -796,7 +796,8 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 	.services-wrapper,
 	.strengths-wrapper,
 	.cases-wrapper,
-	.partners-wrapper {
+	.partners-wrapper,
+	.swiper-cases {
 		display: none;
 	}
 	.branding-wrapper,
@@ -1062,7 +1063,7 @@ ul.navbar-nav>li>.nav-link {
 }
 
 .communication-plan-text b{
-	font-family: "Museo Sans 500",sans-serif;
+	font-family: "Museo Sans 300",sans-serif;
 }
 
 .communication-plan-number {
@@ -1687,6 +1688,11 @@ textarea.contact-form-input {
 	padding-bottom: 20px;
 }
 
+.swiper-cases {
+	max-height: 500px;
+	margin-top: 30px;
+}
+
 .cases .position-block {
 	margin: 15px auto;
 }
@@ -1701,7 +1707,7 @@ textarea.contact-form-input {
 
 @media screen and (max-width: 1440px) {
 	.cases .position-block-image {
-		max-height: 300px;
+		/*max-height: 300px;*/
 	}
 
 	.cases .position-info-block {
