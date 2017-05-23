@@ -120,6 +120,10 @@ ul.navbar-nav>li>a.nav-contact-button {
 ul.navbar-nav>li>a.nav-contact-button:hover {
 	background: rgba(255, 255, 255, .9);
 }
+.navbar>.container-fluid .navbar-brand {
+	position: relative;
+	z-index: 20;
+}
 
 .home {
 	width: 100%;
@@ -380,6 +384,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 
 .services-item {
 	padding: 20px;
+	padding-top: 15px;
 	border: 1px solid #fabc14;
 	-webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: -6px 1px 10px 0px rgba(0, 0, 0, 0.3);
@@ -399,10 +404,10 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 
 .services-image {
 	display: block;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	margin: 0 auto;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .mobile-services-wrapper .services-image {
@@ -596,6 +601,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 }
 
 .partner-item {
+	flex: 1;
 	margin: 50px 1.6%;
 	text-align: center;
 }
@@ -1170,6 +1176,7 @@ ul.navbar-nav>li>.nav-link {
 	font-family: "Museo Sans 100",sans-serif;
 	font-size: 14px;
 	color: #2e0b01;
+	margin: 10px 0 0;
 }
 .cases-type-line {
 	display: inline-block;
@@ -1181,7 +1188,7 @@ ul.navbar-nav>li>.nav-link {
 .cases-type-item {
 	display: inline-block;
 	background: #fff;
-	padding: 7px 15px;
+	padding: 5px 10px;
 	border-radius: 3px;
 	margin: 5px;
 }
@@ -1691,6 +1698,26 @@ textarea.contact-form-input {
 .swiper-cases {
 	max-height: 500px;
 	margin-top: 30px;
+}
+
+.swiper-pagination-bullet-active {
+	background: #55721a;
+}
+
+.swiper-button-next, .swiper-button-prev {
+	top: 40%;
+}
+
+.swiper-button-next {
+	background-image: url(../images/arrow-right.svg); 
+}
+
+.swiper-button-prev {
+	background-image: url(../images/arrow-right.svg); 
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .cases .position-block {

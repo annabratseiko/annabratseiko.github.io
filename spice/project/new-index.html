@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="new-index.html">
                     <img class="spice-logo" alt="Brand" src="assets/images/spice-logo.svg">
                 </a>
             </div>
@@ -129,14 +129,14 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide communication top-space">
+          <!-- <div class="swiper-slide communication top-space">
             <iframe id="video-screen" src="http://www.youtube.com/embed/W7qWa52k-nE?&rel=0&enablejsapi=1" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
             <div class="communication-play-overlay flex-container flex-justify-content-center flex-align-items-center flex-direction-column">
               <p class="communication-play-overlay-title">From communication plan <span>to community plan</span></p>
               <button class="communication-play-overlay-button">How we make your story successful</button>
               <img class="communication-play-video-button" src="assets/images/video-play.svg">
             </div>
-          </div>
+          </div> -->
           <div class="swiper-slide services top-space flex-container flex-justify-content-center flex-align-items-center flex-direction-column">
             <h2 class="services-title col-xs-12">Our services</h2>
             <div class="services-wrapper col-xs-11 col-lg-9 ">
@@ -180,7 +180,7 @@
                 </div>
               </div>
               <div class="services-button">
-                <a href="new-cases.html">Discover our cases</a>
+                <a href="new-cases.html">Discover our work!</a>
               </div>
             </div>
             <div class="mobile-services-wrapper">
@@ -271,7 +271,7 @@
                 </div>
               </div>
               <div class="services-button">
-                <a href="new-cases.html">Discover our cases</a>
+                <a href="new-cases.html">Discover our work!</a>
               </div>
             </div>
             <div class="mobile-services-wrapper">
@@ -377,6 +377,8 @@
                   </div>
                 </div>
               </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
               <div class="swiper-pagination"></div>
             </div>
 
@@ -426,39 +428,40 @@
           <div class="swiper-slide partners top-space flex-container flex-justify-content-center flex-align-items-center flex-direction-column" id="st-partners">
             <h2 class="partners-title col-xs-12">Happy to have worked with</h2>
             <div class="partners-wrapper col-xs-11 col-md-10 col-lg-9">
-              <div class="row">
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/abinbev-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/calve-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/cocacola-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/danone-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/hoegarden-02.svg" alt="">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/jupiler-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/knorr-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/planta-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
-                  <img src="assets/images/partners/stella-01.svg" alt="">
-                </div>
-                <div class="col-xs-2 partner-item">
+              <div class="flex-container">
+                <div class="partner-item">
                   <img src="assets/images/partners/unilever-01.svg" alt="">
                 </div>
+                <div class="partner-item">
+                  <img src="assets/images/partners/abinbev-01.svg" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/partners/calve-01.svg" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/partners/cocacola-01.svg" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/bertolli.svg" alt="">
+                </div>
+              </div>
+              <div class="flex-container">
+                <div class="partner-item">
+                  <img src="assets/images/partners/knorr-01.svg" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/partners/danone-01.svg" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/Kardeco.png" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/partners/planta-01.svg" alt="">
+                </div>
+                <div class="partner-item">
+                  <img src="assets/images/partners/stella-01.svg" alt="">
+                </div>
+                
               </div>
             </div>
             <div class="mobile-partners-wrapper col-xs-11">
@@ -578,7 +581,9 @@
     keyboardControl: true,
     speed: 300,
     pagination: '.swiper-pagination',
-    paginationClickable: true
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev'
   });
 </script>
 </body>
