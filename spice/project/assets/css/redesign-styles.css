@@ -719,6 +719,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 .footer-contacts-item {
 	vertical-align: middle;
 	text-align: left;
+	margin: 0;
 	line-height: 30px;
 }
 
@@ -1218,7 +1219,7 @@ ul.navbar-nav>li>.nav-link {
 	width: 100%;
 }
 .position-info-block {
-	width: 40%;
+	width: 45%;
 	position: absolute;
 	right: 50%;
 	top: 50%;
@@ -1259,6 +1260,7 @@ ul.navbar-nav>li>.nav-link {
 }
 .position-block-video-overlay-button {
 	width: 60px!important;
+	cursor: pointer;
 }
 
 .cases-info-block {
@@ -1497,6 +1499,7 @@ ul.navbar-nav>li>.nav-link {
 	border-radius: 5px;
 	padding: 15px 20px;
 	margin-top: 20px;
+	display: inline-block;
 }
 
 /*---------------------------------
@@ -1586,12 +1589,12 @@ ul.navbar-nav>li>.nav-link {
 	opacity: .5;
 }
 .contacts-title {
-	position: absolute;
+	/*position: absolute;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
+	transform: translateY(-50%);*/
 	font-family: "Museo Sans 300",sans-serif;
 }
 .contact-form .top-space {
@@ -1636,7 +1639,8 @@ textarea.contact-form-input {
 	padding: 70px 0;
 	margin: 0 auto;
 }
-.contact-list-container a {
+.contact-list-container a,
+.contact-list-container p {
 	vertical-align: middle;
 	text-align: left;
 	line-height: 30px;
@@ -1645,7 +1649,8 @@ textarea.contact-form-input {
 	margin-bottom: 15px;
 }
 
-.contact-list-container a:before {
+.contact-list-container a:before,
+.contact-list-container p:before {
 	content: '';
 	display: inline-block;
 	width: 30px;
@@ -1664,7 +1669,7 @@ textarea.contact-form-input {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-.contact-list-container a.adress:before {
+.contact-list-container p.adress:before {
 	background-image: url(../images/footer/map-marker.svg);
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -1934,12 +1939,12 @@ textarea.contact-form-input {
 		margin-bottom: 30px;
 	}
 	.contacts-title {
-		width: 70%;
+		/*width: 70%;
 		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);*/
 	}
 	.position-block-video-overlay-title {
 		margin-top: 30px;
