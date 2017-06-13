@@ -104,6 +104,16 @@ ul.navbar-nav {
 	padding-bottom: 15px;
 }
 
+.navbar-default .navbar-nav>li>a.btn-nav-plan:hover {
+    color: #cb242d;
+    border-color: #cb242d;
+}
+
+.navbar-default .navbar-nav>li>a.btn-nav-strategy:hover {
+    color: #44a3bc;
+    border-color: #44a3bc;
+}
+
 ul.navbar-nav>li>a.nav-contact-button {
 	display: inline-block;
 	background: #fff;
@@ -284,6 +294,7 @@ ul.navbar-nav>li>a.nav-contact-button:hover {
 .strategic-item-text.subtitle {
 	font-family: "Museo Sans 300",sans-serif;
 	margin-bottom: 15px;
+	font-size: 15px;
 }
 
 .communication {
@@ -1047,6 +1058,7 @@ ul.navbar-nav>li>.nav-link {
 	margin-bottom: 60px;
 }
 .communication-plan-item {
+	min-height: 350px;
 	background: #fff;
 	border: 1px solid #44a2bc;
 	padding: 25px 24px 0px;
@@ -1519,6 +1531,7 @@ ul.navbar-nav>li>.nav-link {
 }
 .dark-background {
 	background: #2e0b01;
+	color: #fff;
 }
 .vision-facts-text {
 	font-size: 15px;
