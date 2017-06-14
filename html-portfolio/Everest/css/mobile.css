@@ -1,0 +1,161 @@
+@media screen and (max-width: 767px){
+
+	.wrapper{
+		width: 300px;
+	}
+
+	.head{
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center; 
+		padding-bottom: 35px;
+	}
+
+	.head_title-img{
+		display: none;
+	}
+
+	.head_title{
+		letter-spacing: 14px;
+		font-size: 80px;
+		padding-top: 100px;
+		padding-bottom: 155px;
+	}
+	
+	.actors-list{
+		display: none;
+	}
+	
+	.head_prehistory{
+		font-size: 25px;
+		letter-spacing: 4px;
+		opacity: .3;
+		margin-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.head_image{
+		margin-bottom: 50px;
+	}
+
+	.head_img{
+		width: 200px;
+		height: 200px;
+	}
+
+	.head_img_inside{
+		width: 100px;
+	}
+
+	.head_trailer-title {
+    	font-size: 20px;
+    	padding-bottom: 25px;
+    }
+	
+	.head_button{
+		padding-bottom: 10px;
+	}
+
+	.head_button img{
+		width: 40px;
+	}
+
+	.section{
+		padding-top: 35px;
+	}
+
+	.section_title{
+		font-size: 30px;
+	}
+
+	.section-characters{
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: 50% 0%; 
+	}
+
+	.characters_title {
+    	padding-top: 35%;
+	}
+
+	.artist p{
+		font-size: 14px;
+	}
+
+	.section-story{
+		background: url(../img/story-mobile.jpg) no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: 50% 0%; 
+		padding-bottom: 120px;
+	}
+
+	.story-mountain-animation,
+	.story-cloud-animation{
+		z-index: -1;
+	}
+
+	.story-text{
+		display: block;
+		text-align: justify;
+		width: 75%;
+		margin-left: 25%;		
+	}
+
+	.story-block{
+		text-align: center;
+	} 
+
+	.story-title{
+		display: block;
+		width: 75%;
+		margin-left: 25%;
+		padding-bottom: 20px;
+	}
+	
+	.section-gallery{
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: 50% 0%; 
+	}
+
+	.gallery-title{
+		font-size: 20px;
+		letter-spacing: 5px;
+		padding-top: 30px;
+	}
+
+	.gallery-columns{
+		padding-top: 25px;
+	}
+
+	.column_img {
+	    width: 140px;
+	}
+
+	.column_img img {
+	    width: 70px;
+	}
+
+	.column_text a {
+    	font-size: 20px;
+	}
+
+	.footer-text{
+		font-size: 10px;
+	}
+
+
+	.head_carousel{
+		display: block;
+	}
+
+	#owl-demo-mobile .owl-item{
+		width: 100px;
+		text-align: center;
+	}
+
+	#owl-demo-mobile .owl-next{
+		display: none;
+	}
+}

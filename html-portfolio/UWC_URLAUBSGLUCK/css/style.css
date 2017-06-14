@@ -1,0 +1,519 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background-color: rgb(255, 255, 255);
+	font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.page-wrapper{
+	margin: 0 auto;
+}
+
+.clearfix{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.section{
+	padding-top: 98px;
+	overflow: hidden;
+}
+
+h3{
+	font-size: 22px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 35px;
+}
+/*-------------------------PROMO---------------------------*/
+.promo{
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+	position: relative;
+}
+.promo-img{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1440px;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+
+}
+.promo-content{
+	position: relative;
+	z-index: 2;
+}
+.header{
+	padding: 48px 0px;
+	overflow: hidden;
+}
+
+h1 a{
+	float: left;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.log-in{
+	display: inline-block;
+	float: right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: hidden;
+}
+
+.log-in a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	padding: 10px 17px;
+	border: 2px solid transparent;
+	margin-bottom: 1px;
+}
+
+.log-in a:hover{
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 30px;
+	-webkit-transition: border .3s;
+	-o-transition: border .3s;
+	transition: border .3s;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 52px;
+	text-align: center;
+	margin-top: 105px;
+}
+
+span{
+	display: block;
+	padding-bottom: 9px;
+}
+
+.text-promo p{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 22px;
+	font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.button-promo{
+	text-align: center;
+	margin: 49px 0px 246px 0px;
+}
+
+.text-promo a{
+	text-decoration: none;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 78, 80);
+	padding: 11px 20px;
+	border-radius: 30px;
+	font-size: 14px;
+}
+
+.text-promo a:hover{
+	background: rgb(255, 0, 40);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+/*-------------------------PROMO-end---------------------------*/
+
+/*-------------------------How-it-works---------------------------*/
+.steps{
+	overflow: hidden;
+}
+
+.first-step, 
+.second-step, 
+.third-step{
+	width: 31.9%;
+	height: 400px;
+	float: left;
+	margin-right: 2%;
+}
+.third-step{
+	margin-right: 0;
+}
+
+/*-------------------------How-it-works-end------------------------*/
+
+/*-------------------------Partners---------------------------*/
+
+.partners{
+	overflow: hidden;
+}
+
+.person{
+	float: left;
+	width: 220px;
+	text-align: center;
+	margin-left: 20px;
+	position: relative;
+}
+
+.person:first-child{
+	margin-left: 0;
+}
+
+.person img{
+	border-radius: 100px;
+}
+
+.icon{
+	display: block;
+	position: absolute;
+	top: 83px;
+	left: 135px;
+	z-index: 2;
+}
+
+.person figcaption{
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+h4{
+	margin-top: -5px;
+}
+
+.person p{
+	font-size: 14px;
+	padding-top: 15px;
+	font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-bottom: 56px;
+}
+
+.partners-button{
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.partners-button a{
+	text-decoration: none;
+	text-align: center;
+	color: rgb(255, 78, 80);
+	padding: 9px 25px;
+	border: 2px solid rgb(255, 78, 80);
+	border-radius: 30px;
+	font-size: 14px;
+}
+
+.partners-button a:hover{
+	color: rgb(255, 255, 255);
+	background: rgb(255, 0, 40);
+	border: 2px solid rgb(255, 0, 40);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+/*-------------------------Partners-end---------------------------*/
+
+/*-------------------------IDEAS---------------------------*/
+.ideas{
+	overflow: hidden;
+	margin-bottom: -20px;
+}
+
+.ideas p{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	right: 5%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.sport, 
+.health, 
+.extreme, 
+.games, 
+.culture, 
+.relax, 
+.travel{
+	height: 100%;
+	background: no-repeat center;
+	border-radius: 5px;
+
+}
+.idea-item{
+	background-color: rgb(51, 51, 51);
+	position: relative;
+	width: 31.9%;
+	height: 310px;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+}
+.idea-item:first-child{
+	margin-left: 0;
+}
+.idea-item.double{
+	width: 65.8%;
+}
+.idea-item-row{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.health{
+	background: no-repeat center;
+}
+
+.extreme{
+	background: no-repeat right;
+}
+
+.games{
+	background: no-repeat center;
+}
+
+.culture{
+	background: no-repeat center;
+}
+
+.relax{
+	background: no-repeat center;
+}
+
+.travel{
+	background: no-repeat right;
+}
+/*-------------------------IDEAS-end---------------------------*/
+
+/*-------------------------Search---------------------------*/
+.search{
+	text-align: center;
+}
+
+.search p{
+	font-size: 18px;
+	font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+
+.search-enter{
+	width: 240px;
+	height: 37px;
+	padding-left: 10px;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 3px;
+	outline: none;
+}
+
+.search-enter:focus{
+	box-shadow: 0px 0px 6px 0px rgb(255, 78, 80) inset;
+	border-color: rgb(255, 78, 80);
+}
+
+.search-button{
+	font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	height: 40px;
+	width: 160px;
+	border: 1px solid rgb(255, 78, 80);
+	border-radius: 40px;
+	background: rgb(255, 78, 80);
+}
+
+.search-button:hover{
+	background: rgb(255, 0, 40);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+/*-------------------------Search-end---------------------------*/
+
+/*-------------------------Footer---------------------------*/
+.footer{
+	margin-top: 100px;
+	border-top: 4px solid rgb(255, 78, 80);
+	padding: 37px 0 20px 0;
+	overflow: hidden;
+}
+
+.logo{
+	text-decoration: none;
+	color: rgb(255, 78, 80);
+	text-transform: uppercase;
+	font-size: 17px;
+	float: left;
+	margin-right: 100px;
+}
+
+.about{
+	float: left;
+	font-size: 14px;
+	line-height: 18px;
+	margin-right: 88px;
+}
+
+.about p{
+	font-weight: bolder;
+}
+
+.about li{
+	list-style-type: none; 
+	line-height: 18px;
+	padding-top: 7px;
+}
+
+.about a{
+	text-decoration: none;
+	color: rgb(140, 140, 140);
+	font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
+}
+
+.about a:hover{
+	padding-left: 5px;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.design{
+	float: right;
+}
+
+.design p{
+	text-align: right;
+	text-transform: uppercase;
+	font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(140, 140, 140);
+	margin-bottom: 9px;
+	letter-spacing: 3px;
+	margin-top: 2px;
+}
+/*-------------------------Footer-end---------------------------*/
+
+
+
+
+/*--------------------------slider------------------------------*/
+.flexslider{
+	border: none;
+	margin-bottom: 0;
+}
+
+.slides li{
+	overflow: hidden;
+	max-height: 400px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.step-text{
+	position: absolute;
+	top: 0;
+	height: 400px;
+	width: 100%;
+	background:- moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.6)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); 
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); 
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); 
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 );;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+h5{
+	font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.step-button p{
+	padding: 5px 0;
+	width: 70px;
+	background: rgb(255, 78, 80);
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.step-content{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	margin-right: 20px;
+	font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+.flexslider .slides img{
+	width: auto;
+	margin-left: -50%;
+}
+
+.flex-prev{
+	background: url(../img/arrow-left.png) no-repeat center;
+}
+
+.flex-next{
+	background: url(../img/arrow-right.png) no-repeat center;
+}
+
+.flex-direction-nav a:before{
+	display: none;
+}
+
+
+/*--------------------------slider end----------------------------*/
+
+
+

@@ -1,0 +1,25 @@
+@media screen and (max-width: 939px){
+	
+	.wrapper{
+		width: 748px;
+	} 
+
+	.first-step, 
+	.second-step, 
+	.third-step{	
+		width: 31.55%;
+		margin-right: 2.6%;
+	}
+
+	.third-step{
+		margin-right: 0;
+	}
+
+	.partners{
+		width: 460px;
+		margin: 0 auto;
+	}
+	.person:nth-child(2n+1){
+		margin-left: 0;
+	}
+}

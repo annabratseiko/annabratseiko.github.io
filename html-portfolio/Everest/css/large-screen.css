@@ -1,0 +1,17 @@
+@media screen and (min-width: 1680px){
+	.head_title{
+		padding-bottom: 750px;
+	}
+
+	.section-story{
+		padding-bottom: 700px;
+	}
+
+	.gallery-title{
+		padding-bottom: 800px;
+	}
+
+	.characters_title {
+    	padding-bottom: 150px;
+    }
+}

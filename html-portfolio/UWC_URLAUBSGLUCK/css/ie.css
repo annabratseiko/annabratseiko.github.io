@@ -1,0 +1,27 @@
+body{
+	min-width: 940px; /*there are no mobile devices with IE8 browser*/
+}
+.promo-img{
+	left: 0;
+	width: 100%;
+}
+.search-form{
+	vertical-align: top;
+}
+.search-enter,
+.search-button{
+	vertical-align: middle;
+}
+.search-enter{
+	line-height: 37px;
+}
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next{
+	display: none;
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+	display: block;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+	display: block;
+}

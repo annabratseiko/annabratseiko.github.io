@@ -1,0 +1,163 @@
+@media screen and (max-width: 767px){
+	.wrapper{
+		min-width: 300px;
+	}
+
+	.header-block_login{
+		float: none;
+	}
+
+	.logo{
+		float: left;
+	}
+
+	.login-section {
+	    padding: 7px;
+	}
+	.login-section a{
+		font-size: 11px;
+	}
+
+	.header-block_contact{
+		float: right;
+		padding: 5px;
+	}
+
+	.navigation{
+		display: none;
+	}
+
+	.header-menu {
+		margin-bottom: 30px;
+	}
+	
+	.menu-icon{
+		display: block;
+		width: 100%;
+		padding-top: 45px;
+	}
+
+	.menu-icon img{
+		float: right;
+		width: 50px;
+		margin-left: 10px;
+		margin-top: -15px;
+	}
+
+	.menu-icon:hover{
+		cursor: pointer;
+	}
+
+	.nav-mobile{
+		visibility: hidden;
+		text-align: center;
+		padding-bottom: 3px;
+		margin-top: 40px;
+	}
+	/*.menu-icon:hover > .nav-mobile{
+		display: block;
+		visibility: visible;
+		opacity: 1;
+	}*/
+	.nav-mobile li{
+		line-height: 30px;
+		width: 100%;
+		-webkit-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+	}
+
+	.nav-mobile li:hover{
+		background: rgba(242, 126, 0, 0.3);
+	}
+	.nav-mobile a{
+		text-decoration: none;
+		color: rgb(69, 69, 69);
+	}
+
+	.nav-mobile a:hover{
+		color: rgb(0, 0, 0);
+		-webkit-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+	}
+
+	.slider-heading h2 {
+	    font-size: 14px;
+	}
+
+	.slider-description {
+	    font-size: 11px;
+	    line-height: 15px;
+	}
+
+	.slider-heading p {
+    	padding: 0px 7px;
+    }
+
+    .slider-heading a{
+    	font-size: 10px;
+    }
+
+	.button{
+		border-radius: 30px;
+	}
+
+	.button a{
+		font-size: 10px;
+		padding: 10px 30px;
+	}
+
+	.column-goods{
+		width: 100%;
+		float: none;
+	}
+	
+	.function-block{
+		float: none;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.partner-name{
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+
+	.partner-name img{
+		width: auto;
+	}
+
+	footer{
+		text-align: center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: top center;
+
+	}
+
+	.footer-column,
+	.footer-information,
+	.column-part{
+		width: 100%;
+		float: none;
+	}
+
+	.soc-column{
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.soc-net{
+		float: none;
+		display: inline-block;
+		width: 16px;
+	}
+	
+	.fb{
+		width: 7px;
+	}
+
+}

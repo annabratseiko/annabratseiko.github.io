@@ -1,0 +1,45 @@
+@media screen and (max-width: 1439px){
+	.navigation li{
+		padding: 50px 5px;
+	}
+
+	.column-goods_header h1{
+		margin: 0 5px;
+		font-size: 13px;
+	}
+
+	.column-goods_icon img{
+		width: 15px;
+	}
+
+	.column-goods_icon{
+		padding: 5px;
+	}
+
+	.soc-column {
+    	width: 18%;
+	}
+
+	.footer-information{
+		width: 32%;
+	}
+}
+
+
+@media screen and (max-width : 1199px){
+	.navigation li{
+		padding: 50px 3px;
+	}
+
+	.column-goods_chair{
+		width: 30%;
+	}
+	
+	.footer-column{
+		width: 40%;
+	}
+
+	.soc-column{
+		width: 20%;
+	}
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 1023px){
+	.wrapper{
+		width: 748px;
+	}
+
+	.icons{
+		width: 427px;
+		margin: 0 auto;
+	}
+
+	.tickets,
+	.camera,
+	.beer,
+	.devices{
+		margin-bottom: 20px;
+		margin-right: 16%;
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transition: 2s;
+		-o-transition: 2s;
+		transition: 2s;
+	}
+
+	.camera,
+	.devices{
+		margin-right: 0;
+	}
+
+	.sub-a-text{
+		width: 65%;
+	}
+
+	.soc-nets{
+		width: 40%;
+		float: right;
+		margin-top: 30px;
+	}
+}

@@ -1,0 +1,76 @@
+@media screen and (max-width : 1224px){
+	.wrapper{
+		width: 1024px;
+	}
+
+	.head_title{
+		font-size: 140px;
+		padding-top: 60px;
+		padding-bottom: 400px;
+	}
+
+	.actors-list{
+		padding-bottom: 60px;
+	}
+
+	.person{
+		font-size: 17px;
+	}
+
+	.person_last-name{
+		font-size: 23px;
+	}
+
+	.head_prehistory{
+		font-size: 50px;
+		letter-spacing: 10px;
+		padding-bottom: 100px;
+	}
+	
+	.head_image{
+		margin-bottom: 130px;
+	}
+
+	.head_text{
+		font-size: 19px;
+		letter-spacing: 2px;
+	}
+
+	.section{
+		padding-top: 170px;
+	}
+	
+	.section_title{
+		font-size: 70px;
+	}
+
+	.characters_title{
+		padding-top: 330px;
+	}
+	
+	.artist img{
+		width: 100px;
+	}
+
+	.section-story{
+		padding-top: 240px;
+	}
+
+	.story-text{
+		font-size: 15px;
+	}
+
+	.story-cloud-animation{
+		bottom: -10%;
+	}
+
+	.gallery-title{
+		font-size: 65px;
+		padding-bottom: 400px;
+	}
+
+	.footer-text{
+		padding-top: 35px;
+		padding-bottom: 20px;
+	}
+}

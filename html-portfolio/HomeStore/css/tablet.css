@@ -1,0 +1,53 @@
+@media screen and (max-width : 1024px){
+	.logo{
+		float: none;
+		width: 50%;
+	}
+
+	.navigation{
+		float: none;
+	}
+
+	.navigation li{
+		padding: 40px 6px;
+	}
+
+	.navigation a{
+		font-size: 11px;
+	}
+	
+	.slider-heading{
+		margin-top: 15%;
+	}
+
+	.slider-heading h2 {
+	    font-size: 35px;
+	}
+
+	.column-goods{
+		width: 50%;
+	}
+
+	.column-goods_header h1{
+		margin: 0 10px;
+		font-size: 20px;
+	}
+
+	h3{
+		font-size: 25px;
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+	
+	.footer-column{
+		width: 50%;
+	}
+
+	.footer-information{
+		width: 50%;
+	}	
+	.soc-column{
+		width: 100%;
+		float: none;
+	}
+}

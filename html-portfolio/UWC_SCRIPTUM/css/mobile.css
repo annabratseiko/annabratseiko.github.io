@@ -1,0 +1,153 @@
+@media screen and (max-width: 767px){
+	.header__logo, 
+	.header__menu {
+	    width: 10%;
+	}
+
+	.about__image,
+	.about__information{
+		float: none;
+	    width: 100%;
+	}
+
+	.about__information{
+		padding-left: 0;
+	}
+
+	.about__title{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.header__section,
+	.about, 
+	.works, 
+	.skills, 
+	.news, 
+	.quote, 
+	.contacts, 
+	.footer__section{
+	    margin-bottom: 10px;
+	}
+
+	.about, 
+	.works, 
+	.skills, 
+	.news, 
+	.quote, 
+	.contacts, 
+	.footer__section{
+	    padding: 25px 0;
+	}
+
+	.works__item a {
+		font-size: 11px;
+		letter-spacing: .5px;
+	}
+
+	.works__item {
+	    padding-left: 8px;
+	    padding-right: 8px;
+	}
+
+	.works__block {
+	    width: 100%;
+	    float: none; 
+	    margin-right: 0; 
+	}
+
+	.development__block, 
+	.quote__block {
+	    width: 100%;
+	    float: none; 
+	}
+
+	.skills__title, 
+	.news__title, 
+	.contacts__title{
+		margin-bottom: 40px;
+	}
+
+	.skills__name {
+	    font-size: 12px;
+	    margin-bottom: 20px;
+	}
+
+	.skills__block,
+	.skills__progress{;
+	    height: 20px;
+	}
+
+	.skills__percent{
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.template-description {
+	    padding: 45px 0;
+	}
+
+	.template-description__image{
+		display: none;
+	}
+
+	.template-description__right-block, 
+	.template-description__left-block {
+	    width: 76%;
+	}
+
+	.template-description__left-block{
+		margin-bottom: 25px;
+	}
+
+	.template-description__left-icon,
+	.template-description__right-icon{
+		float: left;
+		margin-left: 0;
+	    margin-right: 4%;
+	    width: 20%;
+	}
+
+	.template-description__right-block{
+		text-align: left;
+	}
+
+	.template-description__row{
+		margin-bottom: 25px;
+	}
+
+	.news__block{
+		float: none;
+		width: 100%;
+	}
+
+	.news__button{
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	.contacts__name {
+    	float: none;
+    	width: 100%;
+    	margin-top: 0;
+    	margin-bottom: 25px;
+    }
+
+    .contacts__mail{
+    	margin-bottom: 25px;
+    }
+
+    .contacts__button{
+    	margin-left: 0;
+    	margin-top: 25px;
+    }
+
+    .quote__title {
+	    padding: 25px 35px;
+	}
+
+	.footer__copyright {
+		font-size: 10px;
+	}
+
+}

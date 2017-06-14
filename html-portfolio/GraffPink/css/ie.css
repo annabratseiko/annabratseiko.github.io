@@ -1,0 +1,28 @@
+body{
+	min-width: 1024px;
+}
+
+.header{
+	background-color: #fff;
+} 
+
+.about-menu li{
+	background-color: #fff;
+}
+
+.menu{
+	margin-left: 80px;
+}
+.tickets-hov,
+.camera-hov,
+.beer-hov,
+.devices-hov{
+	display: none;
+}
+
+.tickets:hover .tickets-hov,
+.camera:hover .camera-hov,
+.beer:hover .beer-hov,
+.devices:hover .devices-hov{
+	display: block;
+}

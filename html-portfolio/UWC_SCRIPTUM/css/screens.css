@@ -1,0 +1,155 @@
+@media screen and (max-width: 1679px){
+	.content__wrapper{
+		width: 75%;
+	}
+
+	.developmens__icons-block {
+		margin-top: 12.5%;
+		margin-bottom: 12.5%;
+	}
+
+	.development__title, 
+	.quote__title{
+		font-size: 45px;
+	}
+
+	.template-description {
+		padding: 120px 0;
+	}
+
+	.quote__title {
+	    padding: 100px 35px;
+	    line-height: 70px;
+	}
+}
+
+@media screen and (max-width: 1439px){
+	.content__wrapper{
+		width: 85%;
+	}
+
+	.about__information{
+		padding-top: 10px;
+	}
+
+	.about__title,
+	.skills__title, 
+	.news__title, 
+	.contacts__title {
+		font-size: 40px;
+	}
+
+	.development__icons-row {
+	    margin-bottom: 10%;
+	}
+
+	.contacts__form {
+	    width: 70%;
+	}
+
+	.development__title, 
+	.quote__title {
+	    font-size: 35px;
+	}
+
+	.quote__title{
+		line-height: 50px;
+	}
+
+	.quote__text:before {
+	    margin-bottom: 60px;
+	}
+
+	.quote__text{
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width : 1199px){
+	.content__wrapper{
+		width: 87%;
+	}
+
+	.quote__text:before {
+	    margin-bottom: 35px;
+	}
+
+	.quote__slider {
+	    width: 70%;
+	}
+}
+
+@media screen and (max-width : 1023px){
+	.about__title, 
+	.skills__title, 
+	.news__title, 
+	.contacts__title {
+	    font-size: 35px;
+	}
+
+	.about__text {
+	    font-size: 14px;
+	    line-height: 20px;
+	    letter-spacing: 1.6px;
+	}
+
+	.template-description__row{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.template-description__right-block,
+	.template-description__left-block {
+    	width: 31%;
+    }
+
+    .template-description__left-icon{
+    	margin-right: 20px;
+    }
+
+    .template-description__right-icon{
+    	margin-left: 20px;
+    }
+
+    .template-description {
+	    padding: 100px 0;
+	}
+
+	.news__article-title,
+	.news__text{
+		letter-spacing: 1px;
+	}
+
+	.about, 
+	.works, 
+	.skills, 
+	.news, 
+	.contacts, 
+	.footer__section {
+	    padding: 100px 0;
+    }
+
+    .development__title, 
+    .quote__title {
+	    font-size: 27px;
+	}
+
+	.quote__title {
+	    line-height: 40px;
+	}
+
+	.skills__block {
+		margin-bottom: 35px;
+	}
+
+	.quote__title {
+	    padding: 70px 35px;
+	}
+
+	.development__icon figcaption {
+		font-size: 12px;
+	}
+
+
+}
